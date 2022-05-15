@@ -10,9 +10,17 @@ dựa trên một số thông số như hành vi của khách hàng và dữ li�
 chúng tôi sẽ nghiên cứu từng thuộc tính từ đó đưa ra các thuộc tính tiêu biểu để phân
 khúc khách hàng, và sử dụng các phương pháp đánh giá như biểu đồ Elbow,
 Dendrogram để tìm ra số cụm tối ưu. Thuật toán phân lớp cơ bản và tối ưu nhất trong
-bài toán này là Kmean. Sau khi phân cụm ta được bộ dữ liệu có thêm thuộc tính “
-Clustering” và ta có bộ dữ liệu mới. Sau đó chúng ta sẽ xây dựng mô hình và huấn
-luyện dựa vào các thuật toán như : Kernel SVM, Naïve Bayes, Random Forest
-Classification để dự đoán thuộc tính “Clustering”. Cuối cùng thì sẽ sử dụng các
+bài toán này là **Kmean**. Sau khi phân cụm ta được bộ dữ liệu có thêm thuộc tính “
+**Clustering**” và ta có bộ dữ liệu mới. Sau đó chúng ta sẽ xây dựng mô hình và huấn
+luyện dựa vào các thuật toán như : **Kernel SVM, Naïve Bayes, Random Forest
+Classification** để dự đoán thuộc tính “Clustering”. Cuối cùng thì sẽ sử dụng các
 phương pháp đánh giá như Confusion matrix và accuracy để đánh giá độ chính xác và
 cuối cùng đưa ra kết quả chính xác nhất.
+
+
+- **Mô tả các file :**
+    - **File pdf** : File pdf báo cáo nội dung đồ án. 
+    -	**19521810_19521872_Custumer Segmantation.ipynb** : File jupyternotebook qua trình từ việc xử lý dữ liệu, EDA đến xây dụng model machine learning của bài toán.
+    -	**Data_clean.csv** : File lưu giữ thông tin của khách hàng
+    -	**Cluster_Customers.csv** : File sau khi phân lớp khách hàng bằng **Kmean**.
+    
